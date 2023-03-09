@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "oauth2",
+    "baseName": "gateway",
+    "blueprints": [],
+    "buildTool": "gradle",
+    "cacheProvider": "no",
+    "clientFramework": "vue",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1678370448132,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "devServerPort": 9060,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.3",
+    "jwtSecretKey": "YWI4MmZmMDgxZGIxMTA3MzM0YTg4YmEyMDNiODVjMzJhMmZiYmFkZTdhNzUzMWFhODkxYWFkNGM2N2JhYTg1YmYwN2UwM2YyNTIyODJmZTc4YzNlZWZjMTlkMGZjODE2MWEzNDczZDBjZjcwZDhlMTFhZWQzZjM5YTNkN2RlMjk=",
+    "languages": ["ko", "en"],
+    "messageBroker": "kafka",
+    "microfrontend": true,
+    "microfrontends": [
+      {
+        "baseName": "gateway"
+      }
+    ],
+    "nativeLanguage": "ko",
+    "otherModules": [],
+    "packageName": "com.example.gateway",
+    "pages": [],
+    "prodDatabaseType": "mariadb",
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": "8080",
+    "serverSideOptions": ["messageBroker:kafka"],
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipUserManagement": true,
+    "testFrameworks": ["protractor"],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
