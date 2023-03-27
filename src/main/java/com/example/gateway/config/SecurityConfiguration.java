@@ -139,7 +139,7 @@ public class SecurityConfiguration {
             .pathMatchers("/management/**").hasAuthority(AuthoritiesConstants.ADMIN);
 
         http.oauth2Login(oauth2 -> oauth2.authorizationRequestResolver(authorizationRequestResolver(this.clientRegistrationRepository)))
-            
+
             .oauth2ResourceServer()
                 .jwt()
                 .jwtAuthenticationConverter(jwtAuthenticationConverter());

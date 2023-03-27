@@ -16,6 +16,7 @@ public class JwtGrantedAuthorityConverter implements Converter<Jwt, Collection<G
 
     @Override
     public Collection<GrantedAuthority> convert(Jwt jwt) {
+        System.out.println(jwt.getTokenValue());
         return SecurityUtils.extractAuthorityFromClaims(jwt.getClaims());
     }
 }
