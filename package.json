@@ -84,7 +84,7 @@
     "webapp:dev": "npm run webpack-dev-server -- --mode development --env stats=normal",
     "webapp:prod": "npm run clean-www && npm run webapp:build:prod --",
     "webapp:test": "npm run test --",
-    "webpack": "webpack --max_old_space_size=4096 --config webpack/webpack.common.js",
+    "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js --config webpack/webpack.common.js",
     "webpack-dev-server": "webpack serve --config webpack/webpack.common.js"
   },
   "config": {
