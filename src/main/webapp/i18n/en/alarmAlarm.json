@@ -1,0 +1,37 @@
+{
+  "gatewayApp": {
+    "alarmAlarm": {
+      "home": {
+        "title": "Alarms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Alarm",
+        "createOrEditLabel": "Create or edit a Alarm",
+        "notFound": "No Alarms found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Alarm {{ id }}?"
+      },
+      "detail": {
+        "title": "Alarm"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "siteUrl": "Site Url",
+      "description": "Description",
+      "refeshTime": "Refesh Time",
+      "musicTitle": "Music Title",
+      "musicPath": "Music Path",
+      "vbEnabled": "Vb Enabled",
+      "useSwitch": "Use Switch",
+      "createdDate": "Created Date",
+      "crawlingDate": "Crawling Date"
+    }
+  },
+  "alarmApp": {
+    "alarmAlarm": {
+      "created": "A new Alarm is created with identifier {{ param }}",
+      "updated": "A Alarm is updated with identifier {{ param }}",
+      "deleted": "A Alarm is deleted with identifier {{ param }}"
+    }
+  }
+}

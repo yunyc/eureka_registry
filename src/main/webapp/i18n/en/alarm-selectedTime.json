@@ -1,0 +1,11 @@
+{
+  "gatewayApp": {
+    "SelectedTime": {
+      "null": "",
+      "ONE": "ONE",
+      "FIVE": "FIVE",
+      "TEN": "TEN",
+      "THIRTY": "THIRTY"
+    }
+  }
+}
